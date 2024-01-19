@@ -1,0 +1,33 @@
+package Aarti_Joshi;
+
+public class Problem_Solved {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int N=153;
+		
+		int originalNumber=0;
+        int remainder=0; 
+        int result = 0; 
+        int no = 3;
+        originalNumber=N;
+        
+for (originalNumber=0;originalNumber != 0;  ++no) {
+        	
+        }
+originalNumber = N;
+for (originalNumber=0;originalNumber != 0; originalNumber /= 10)
+{
+    remainder = originalNumber % 10;
+    result += Math.pow(remainder, no);
+}
+if(result == N) {
+    System.out.println("1");
+}
+else {
+    System.out.println("0");
+}
+	}
+
+}
